@@ -1,0 +1,117 @@
+
+/*  PROPIEDADES DEL BODY*/
+body{
+    background-color: rgb(20, 26, 39) ;
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{font-size: 300%;
+margin-left: 3%;
+text-decoration: underline ;}
+
+h2{text-align: right;
+    font-size: 250%;
+    margin-right: 4%;
+margin-top: -2%;}
+h3{font-size: 200%;
+    text-decoration: underline;
+    margin-left: 1%;
+}
+h4{font-size: 150%;
+    text-decoration: underline;
+    margin-left: 1%;
+}
+p{font-size: 120%;
+    margin-left: 1%;
+}
+
+header{
+    background-color: rgb(20, 26, 39) ;
+    position: fixed;
+    position: absolute;
+    width: 101%;
+    height: 12%;
+    margin-top: -5%;
+    margin-left: -1%;
+    
+    
+}
+.icons{
+    width: auto;
+    height: auto;
+    margin: 28px ;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.icons>img{
+    width: auto;
+    height: 70px;
+}
+.item_right{
+    float: right;
+    margin-left: 5px ;
+}
+
+.item_left{
+    float: left;
+}
+
+.contenedor_perfil{
+    
+    background-color: rgb(20, 26, 39) ;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 50px;
+    
+}
+.portada{
+
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portada>img{
+    margin: 3%;
+    width: 100%;
+    height: 500px;
+    border-radius: 50px;
+
+}
+.perfil{
+    margin-left: 10%;
+    position: absolute;
+
+}
+.perfil>img{
+    margin-top: -40%;
+    width: 30%;
+    height: auto;
+    border-radius: 60%;
+    border: 5px solid #42A1F9;
+
+}
+.contenedor_acerca_de{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    border-radius: 50px;
+    border: 5px solid white;
+
+
+}
+.proyecto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.proyecto>img{
+    width: 15%;
+    height: 15%;
+    margin: 1%;
+    margin-bottom: 5%;
+   }
